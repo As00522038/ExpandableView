@@ -1,0 +1,26 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <declare-styleable name="ExpandableViewAttr">
+        <!-- 动画执行时间 -->
+        <attr name="duration" format="integer" />
+        <!-- 标题字体颜色 -->
+        <attr name="title_text_color" format="color" />
+        <!-- 标题字体大小 -->
+        <attr name="title_text_size" format="dimension" />
+        <!-- 内容字体颜色 -->
+        <attr name="content_text_color" format="color" />
+        <!-- 内容字体大小 -->
+        <attr name="content_text_size" format="dimension" />
+        <!-- 设置是否展开 -->
+        <attr name="is_collapsed" format="boolean" />
+    </declare-styleable>
+
+</resources>
